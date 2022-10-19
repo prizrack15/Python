@@ -5,6 +5,7 @@ def calculator(n, d):
     while True:
         if chel == 'R':
             n, d = d, n
+            print('Числа перевернуты')
             chel = input()
         if chel == 'N':
             print('Новые числа:')
@@ -33,7 +34,7 @@ def calculator(n, d):
             print(n ** d)
             chel = input()
         elif chel == '.':
-            return 'Пока'
+            return 'Конец программы'
         else:
             print('Введите одну из следующих математических '
                   'операций: + - * / % // **')
