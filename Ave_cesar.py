@@ -69,12 +69,3 @@ for i in range(len(s)):
     res += ' '
    
 print(res)
-
-
-
-
-
-
-
-
-
