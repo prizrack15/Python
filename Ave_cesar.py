@@ -67,7 +67,7 @@ for i in range(len(s)):
             elif sdvig == 'вп':
                 res += stroch_rus[stroch_rus.find(s[i][j]) + len(dlina_slova)]
     res += ' '
-print(s)
+   
 print(res)
 
 
