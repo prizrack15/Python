@@ -1,7 +1,3 @@
-#shifrovanie = input('шифрование или дешифрование(ш/д)')
-#alfavet = input('язык алфавита: русский или английский(р/а)')
-
-
 propis_eng = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
