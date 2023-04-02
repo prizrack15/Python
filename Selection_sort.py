@@ -12,7 +12,7 @@ def selectionSort(arr):
     smallest = ()
     for i in range(len(arr)):
         smallest = arr.index(min(arr))
-        print(smallest)
+        print('Индекс минимального символа', smallest)
         newArr.append(arr.pop(smallest))
     return newArr
 
