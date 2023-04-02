@@ -20,3 +20,4 @@ c = [int(i) for i in input().split()]
 
 print(c[find_Smallest(c)], 'kek')
 print(selectionSort(c))
+#Немного переделал код для сортировки выбором в 'Грокаем алгоритмы'
