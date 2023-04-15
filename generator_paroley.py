@@ -1,4 +1,3 @@
-import random
 from random import *
 digits = '0123456789'
 lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
