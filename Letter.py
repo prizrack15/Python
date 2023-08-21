@@ -1,4 +1,4 @@
-def generate_letter(mail,name,date,time,place,teacher='Тимур Гуев',number=17):
+def generate_letter(mail,name,date,time,place,teacher='Самошкин Иван',number=17):
     return (f'To: {mail}\n'
     f'Приветствую, {name}!\n'
     f'Вам назначен экзамен, который пройдет {date}, в {time}.\n'
