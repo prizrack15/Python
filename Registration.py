@@ -49,9 +49,17 @@ class Registration:
                 return False
 
     @staticmethod
-    def check_password_dictionary(gg):
-        if gg in Registration.easy:
-            return True
+    def check_password_dictionary(value):
+        b = 0
+        with open('easy_passwords.txt') as f:
+            f = f.read().splitlines()
+            for i in f:
+                if i == value:
+                    b += 1
+            if b == 0:
+                return False
+            else:
+                return True
 
     @property
     def password(self):
@@ -69,7 +77,7 @@ class Registration:
             raise ValueError('Пароль должен содержать хотя бы один символ верхнего и нижнего регистра')
         if self.is_include_only_latin(new_pas):
             raise ValueError('Пароль должен содержать только латинский алфавит')
-        if self.check_password_dictionary(new_pas) == True:
+        if self.check_password_dictionary(new_pas):
             raise ValueError('Ваш пароль содержится в списке самых легких')
         self.__password = new_pas
 
