@@ -2,10 +2,6 @@ from string import ascii_letters
 
 
 class Registration:
-    easy = ['123456', 'password', '123456789', '12345', '12345678', 'qwerty', '1234567', '111111', '1234567890',
-            '123123', 'abc123', '1234', 'password1', 'iloveyou', '1q2w3e4r', '000000', 'qwerty123', 'zaq12wsx',
-            'dragon', 'sunshine', 'princess', 'letmein', '654321', 'QwerTy123', 'KissasSAd1f', 'monkey', '27653',
-            '1qaz2wsx', '123321', 'qwertyuiop', 'superman', 'asdfghjkl']
 
     def __init__(self, login, password):
         self.login = login
@@ -184,3 +180,4 @@ else:
     raise TypeError("Пароль должен быть строкой")
 
 print('U r hacked Pentagon')
+
